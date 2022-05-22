@@ -2,7 +2,7 @@ package team14.ourHotel.Users;
 
 import team14.ourHotel.OurHotelApplication;
 
-public class Manager {
+public class Manager implements User{
     int id;
     String fname;
     String lname;
