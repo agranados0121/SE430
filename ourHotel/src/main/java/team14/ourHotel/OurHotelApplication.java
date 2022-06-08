@@ -28,8 +28,8 @@ public class OurHotelApplication {
 		Room r4 = new Room(true, 4, 2, "King", false);
 		ArrayList<Room> rooms = new ArrayList<Room>();
 		rooms.add(r1); rooms.add(r2);rooms.add(r3);rooms.add(r4);
-		HashMap<Room,Customer>bk = new HashMap<Room,Customer>();
-		bk.put(r2, c2);bk.put(r3,c3);
+		HashMap<Customer,Room>bk = new HashMap<Customer,Room>();
+		bk.put(c2,r2);bk.put(c3,r3);
 		ArrayList<Manager> mg = new ArrayList<Manager>();
 		mg.add(new Manager("Joe", "Billy", "jbilly@outlook.com", "jbilly", "password"));
 		Hotel h = new Hotel(rooms, bk);

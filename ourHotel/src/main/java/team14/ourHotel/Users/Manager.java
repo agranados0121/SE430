@@ -1,6 +1,7 @@
 package team14.ourHotel.Users;
 
 import team14.ourHotel.OurHotelApplication;
+import team14.ourHotel.Hotel.Hotel;
 
 public class Manager implements User{
     int id;
@@ -51,5 +52,8 @@ public class Manager implements User{
     }
     public void setPassword(String password) {
         this.password = password;
+    }
+    public void cancel(Hotel h, Customer c) {
+        h.releaseRoom(c);
     }
 }

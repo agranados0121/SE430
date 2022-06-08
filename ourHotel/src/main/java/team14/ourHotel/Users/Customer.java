@@ -1,6 +1,8 @@
 package team14.ourHotel.Users;
 
 import team14.ourHotel.OurHotelApplication;
+import team14.ourHotel.Hotel.Hotel;
+import team14.ourHotel.Hotel.Room;
 
 public class Customer implements User {
     int id;
@@ -52,6 +54,10 @@ public class Customer implements User {
     public void setPassword(String password) {
         this.password = password;
     }
-    
+    public void requestRoom(Hotel h, int i){
+        //Room 1 is in index 0 thus -1 in function
+        Room r= h.getRooms().get(i-1);
+        h.BookRoom(r, this);
+    }
     
 }
