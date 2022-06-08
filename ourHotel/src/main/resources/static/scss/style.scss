@@ -1,25 +1,87 @@
-// Your custom styles
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Rocky
+@URL: http://wethemez.com
+Author E-mail: rockybd1995@gmail.com
 
-/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
-html,
-body,
-.view {
-  height: 100%; }
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
 
-/* Half Page Carousel itself*/
-.carousel {
-  height: 50%; }
-  .carousel .carousel-inner {
-    height: 100%; }
-    .carousel .carousel-inner .carousel-item,
-    .carousel .carousel-inner .active {
-      height: 100%; }
+/*=====================================================================
+@Template Name: Royal Hotel
+@Author: Rocky
+@Developed By: Rocky
+@Developer URL: http://rocky.wethemez.com
+Author E-mail: rockybd1995@gmail.com
 
-/* Adjustment for mobile devices*/
-@media (max-width: 776px) {
-  .carousel {
-    height: 100%; } }
+@Default Styles
 
-/* Footer color for sake of consistency with Navbar */
-.page-footer {
-  background-color: #929FBA; }
+Table of Content:
+01/ Variables
+02/ predefin
+03/ header
+04/ button
+05/ banner
+06/ breadcrumb
+07/ about
+08/ team
+09/ project 
+10/ price 
+11/ team 
+12/ blog 
+13/ video  
+14/ features  
+15/ career  
+16/ contact 
+17/ footer
+
+=====================================================================*/ 
+
+/*----------------------------------------------------*/
+@import "variables";
+/*---------------------------------------------------- */ 
+
+/*----------------------------------------------------*/
+@import "predefine";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "button";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "header";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "banner";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "accomodation";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "testimonial";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "blog";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "contact";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "elements";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "footer";
+/*---------------------------------------------------- */
+
+
+
